@@ -1,0 +1,403 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	width: 80%;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+	
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+}
+
+
+
+.left-side {
+	display: inline-block;
+	width: 35%;
+	float: left;
+	height: 100%;
+	background-color: #434343;
+}
+.right-side {
+	display: inline-block;
+	width: 65%;
+	float: right;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .left-side, .right-side {
+  	display: block;
+    width: 100%;
+  }
+}
+
+/* LEFT SIDE STYLE */
+/* LEFT SIDE STYLE */
+/* LEFT SIDE STYLE */
+
+.profilepic {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.left-side h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 3.1rem;
+	text-align: center;
+
+}
+.left-side h4 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 2.2rem;
+}
+
+.left-side h2, .left-side h4 {
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	font-size: 
+}
+.mobile-section {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.mobile-section p {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+.e-mail-section {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.e-mail-section p {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.other-information {
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.other-information h2 {
+	font-size: 2.9rem;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+
+.other-information p {
+	font-size: 1.8rem;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.social-media {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.social-media img {
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 100px;
+}
+
+/* RIGH SIDE STYLE */
+/* RIGH SIDE STYLE */
+/* RIGH SIDE STYLE */
+/* RIGH SIDE STYLE */
+
+
+
+.name-and-city {
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	padding-left: 10%;
+	text-align: left;
+	color: #232323;
+	margin-bottom: 35px;
+
+}
+
+.name-and-city h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 3.8rem;
+}
+
+.name-and-city h4 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 2.8rem;
+	font-weight: 500;
+	padding-bottom:5px;
+}
+
+.education-section {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding-left: 10%;
+	text-align: left;
+	color: #232323;
+	margin-bottom: 35px;
+}
+
+.education-section h2 {
+	font-size: 3.0rem;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+
+.education-section hr {
+	width: 20rem;
+	float: left;
+}
+
+.gpche {
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	text-align: left;
+	color: #232323;
+}
+
+.gpche p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.5rem;
+}
+
+.tu-sofia {
+	display: block;
+	width: 90%;
+	padding-top: 15px;
+	text-align: left;
+	color: #232323;
+	text-align: left;
+}
+
+.tu-sofia p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.5rem;
+}
+
+.tu-sofia-m {
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	text-align: left;
+	color: #232323;
+	text-align: left;
+}
+
+.tu-sofia-m p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.5rem;
+}
+
+.technical-skills {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding-left: 10%;
+	text-align: left;
+	color: #232323;
+	margin-bottom: 35px;
+	margin-top: 50px;
+}
+
+.technical-skills h2 {
+	font-size: 3.0rem;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+
+.technical-skills hr {
+	width: 20rem;
+	float: left;
+}
+
+.load-bar {
+	margin-top: 25px;
+	display: block;
+	text-align: left;
+}
+
+.load-bar p {
+	font-size: 1.5rem;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+#myProgress {
+  width: 85%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+#myProgress {
+  width: 85%;
+  background-color: #ddd;
+}
+
+#myBar1 {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+#myBar2 {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+#myBar3 {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+#myBar4 {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+#myBar5 {
+  width: 1%;
+  height: 30px;
+  background-color: #6bafb3;
+}
+
+
+.example_a {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #6bafb3;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+background: #00afb3;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/*---------LANGUAGE SECTION----------------- */
+/*---------LANGUAGE SECTION----------------- */
+/*---------LANGUAGE SECTION----------------- */
+/*---------LANGUAGE SECTION----------------- */
+
+.language-section {
+	text-align: left;
+	display: block;
+	width: 90%;
+	padding-left: 10%;
+	text-align: left;
+	color: #232323;
+	margin-bottom: 35px;
+	margin-top: 50px;
+}
+
+.language-section h2 {
+	font-size: 3.0rem;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+
+.language-section hr {
+	background-color: #232323;
+	width: 20rem;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.language-section ul {
+	text-align: left;
+	margin-top: 10px;
+	display: block;
+	font-size: 1.9rem;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE FOR TABLET */
+
+
+
+
